@@ -1,0 +1,273 @@
+.navbar {
+  background-color: blueviolet;
+  height: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  /* Adjust padding as needed */
+}
+
+.navbar-brand,
+.navbar-toggler,
+.search-container,
+.navbar-nav {
+  margin-right: 20px;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search-container input[type="text"] {
+  padding: 6px 40px 6px 40px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: grey;
+}
+
+li {
+  padding-left: 2px;
+}
+
+.left-col,
+.right-col {
+  flex: 1;
+  padding: 20px;
+}
+
+.appointment-details {
+  margin-bottom: 20px;
+}
+
+.patient-name input,
+.appointment-type select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.booking-button {
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 120%;
+  height: 500px;
+}
+
+.appointment-type button {
+  width: 250px;
+  height: 40px;
+  border: 1px rgb(27, 25, 25);
+}
+
+.selected {
+  background-color: #2ecc71;
+}
+
+.book_appointment {
+  height: 330px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(123, 37, 202, 0.7);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.book_appointment .content {
+  position: relative;
+  z-index: 1;
+}
+
+.book_appointment h2 {
+  margin: 0;
+  color: white;
+  padding: 10px;
+}
+
+.circle {
+  height: 155px;
+  width: 155px;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.footer-content {
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column:last-child {
+  margin-right: 0;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: none;
+}
+
+.specialty-container {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.specialty-card {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+  padding: 20px;
+  height: 210px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.specialty-card p {
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(124, 91, 49);
+}
+
+.specialty-icon i {
+  font-size: 50px;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+
+  background-position: center;
+}
+
+.customer-review {
+  /* background-color: #f8f9fa; */
+  padding: 40px 0;
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-rating {
+  font-size: 18px;
+  color: #ffb400;
+  margin-right: 10px;
+}
+
+.review-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.review-body {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.review-card:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .review-card {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
+.reviewlogo {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: blue;
+  text-align: center;
+  color: black;
+}
+
+
+a{
+  text-decoration: none;
+}
